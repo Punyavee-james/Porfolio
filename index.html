@@ -3,26 +3,679 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Punyavee Nowakoaksorn | Portfolio</title>
+
+    <meta name="description" content="Punyavee Nowakoaksorn - Computer Engineer Portfolio">
+    <meta name="author" content="Punyavee Nowakoaksorn">
+
+    <title>Punyavee Nowakoaksorn | Computer Engineer</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>PUNYAVEE NOWAKOAKSORN</h1>
+    <!-- ================= NAVBAR ================= -->
 
-    <h2>Computer Engineer</h2>
+    <header class="navbar">
+        <div class="nav-container">
 
-    <p>
-        AI / Computer Vision / Network / Hardware
-    </p>
+            <a href="#" class="logo">
+                PUNYAVEE<span>.</span>
+            </a>
 
-    <hr>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-    <h2>Engineering Portfolio</h2>
+        </div>
+    </header>
 
-    <p>
-        Welcome to my engineering portfolio.
-    </p>
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    COMPUTER ENGINEER
+                </p>
+
+                <h1>
+                    PUNYAVEE<br>
+                    <span>NOWAKOAKSORN</span>
+                </h1>
+
+                <p class="hero-description">
+                    Building practical engineering solutions across
+                    AI, Computer Vision, Network Infrastructure,
+                    and Hardware Systems.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="button button-primary">
+                        View Projects
+                    </a>
+
+                    <a href="resume.pdf" class="button button-secondary">
+                        Download Resume
+                    </a>
+
+                </div>
+
+                <div class="hero-stack">
+
+                    <span>Python</span>
+                    <span>AI / ML</span>
+                    <span>Computer Vision</span>
+                    <span>Network</span>
+                    <span>PLC / HMI</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <!--
+                    Put your profile image here:
+                    images/profile.jpg
+                -->
+
+                <img
+                    src="images/profile.jpg"
+                    alt="Punyavee Nowakoaksorn"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="section-heading">
+                <span>01</span>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-main">
+
+                    <p class="large-text">
+                        Computer Engineering graduate with hands-on
+                        experience in AI/ML development, network
+                        infrastructure, CCTV/NVR systems, and
+                        hardware integration.
+                    </p>
+
+                    <p>
+                        I enjoy working on practical engineering
+                        problems and connecting software with
+                        real-world hardware. My experience includes
+                        computer vision, machine learning,
+                        networking, PLC/HMI systems, and technical
+                        troubleshooting.
+                    </p>
+
+                </div>
+
+
+                <div class="about-info">
+
+                    <div>
+                        <span class="info-label">EDUCATION</span>
+                        <strong>Walailak University</strong>
+                        <p>
+                            Bachelor of Engineering<br>
+                            Computer Engineering and Artificial Intelligence
+                        </p>
+                    </div>
+
+                    <div>
+                        <span class="info-label">LOCATION</span>
+                        <strong>Nakhon Si Thammarat, Thailand</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section projects-section">
+
+            <div class="section-heading">
+                <span>02</span>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <p class="section-intro">
+                Selected engineering projects involving
+                Artificial Intelligence, Computer Vision,
+                and system integration.
+            </p>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 01 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <!-- Replace this image later -->
+                        <img
+                            src="images/perfume/overview.jpg"
+                            alt="Perfume Tube Detection System"
+                        >
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            AI QUALITY CONTROL
+                        </p>
+
+                        <h3>
+                            Perfume Tube Detection System
+                        </h3>
+
+                        <p>
+                            Developed an AI-based inspection system
+                            to detect missing perfume pump stems and
+                            automatically reject defective products.
+                        </p>
+
+                        <div class="tech-list">
+
+                            <span>YOLOv8</span>
+                            <span>OpenCV</span>
+                            <span>OAK Camera</span>
+                            <span>Jetson Orin Nano</span>
+                            <span>Omron PLC</span>
+                            <span>HMI</span>
+
+                        </div>
+
+                        <a
+                            href="projects/perfume.html"
+                            class="case-link"
+                        >
+                            View Case Study
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 02 -->
+
+                <article class="project-card">
+
+                    <div class="project-image project-placeholder">
+
+                        <div>
+                            <span class="placeholder-number">
+                                02
+                            </span>
+
+                            <p>
+                                BOX COUNTING
+                            </p>
+
+                            <small>
+                                COMPUTER VISION
+                            </small>
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            COMPUTER VISION
+                        </p>
+
+                        <h3>
+                            Box Counting System
+                        </h3>
+
+                        <p>
+                            Designed and implemented a computer
+                            vision system for automated box
+                            detection and counting.
+                        </p>
+
+                        <div class="tech-list">
+
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>YOLO</span>
+
+                        </div>
+
+                        <a
+                            href="projects/box-counting.html"
+                            class="case-link"
+                        >
+                            View Case Study
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 03 -->
+
+                <article class="project-card">
+
+                    <div class="project-image project-placeholder">
+
+                        <div>
+                            <span class="placeholder-number">
+                                03
+                            </span>
+
+                            <p>
+                                ROBOMASTER EP
+                            </p>
+
+                            <small>
+                                LANE DETECTION
+                            </small>
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            COMPUTER VISION
+                        </p>
+
+                        <h3>
+                            Robomaster EP Lane Detection
+                        </h3>
+
+                        <p>
+                            Developed a computer vision approach
+                            for lane detection and autonomous
+                            navigation.
+                        </p>
+
+                        <div class="tech-list">
+
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+
+                        </div>
+
+                        <a
+                            href="projects/robomaster.html"
+                            class="case-link"
+                        >
+                            View Case Study
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section id="experience" class="section">
+
+            <div class="section-heading">
+                <span>03</span>
+                <h2>Work Experience</h2>
+            </div>
+
+
+            <div class="timeline">
+
+
+                <!-- EXPERIENCE 01 -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        FEB 2026 — PRESENT
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            Support Engineer & STEM Instructor
+                        </h3>
+
+                        <h4>
+                            Hi-Tech Nakhon Group Co., Ltd.
+                        </h4>
+
+                        <ul>
+
+                            <li>
+                                Installed and maintained indoor/outdoor
+                                Fiber Optic and LAN network cabling.
+                            </li>
+
+                            <li>
+                                Configured and deployed CCTV/NVR
+                                systems, wireless audio, and solar
+                                cell infrastructure.
+                            </li>
+
+                            <li>
+                                Diagnosed and resolved hardware,
+                                networking, and system issues for
+                                client installations.
+                            </li>
+
+                            <li>
+                                Taught LEGO coding and robotics,
+                                introducing programming logic,
+                                IoT sensors, and basic engineering
+                                concepts.
+                            </li>
+
+                        </ul>
+
+                        <a
+                            href="work/hitech.html"
+                            class="case-link"
+                        >
+                            View Work
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EXPERIENCE 02 -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        APR 2025 — JUL 2025
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            Assistant Researcher
+                        </h3>
+
+                        <h4>
+                            Neo Factory Co., Ltd.
+                        </h4>
+
+                        <ul>
+
+                            <li>
+                                Developed and optimized Machine
+                                Learning models using Python.
+                            </li>
+
+                            <li>
+                                Conducted program testing and
+                                simulation experiments to validate
+                                technical solutions.
+                            </li>
+
+                            <li>
+                                Collected and preprocessed data for
+                                model training and presented
+                                experiment results to the team.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EXPERIENCE 03 -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        SEP 2024 — APR 2025
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            Co-op Engineering Intern
+                        </h3>
+
+                        <h4>
+                            Neo Factory Co., Ltd.
+                        </h4>
+
+                        <ul>
+
+                            <li>
+                                Analyzed production line challenges
+                                and developed prototype solutions
+                                for real-world problems.
+                            </li>
+
+                            <li>
+                                Collaborated with senior engineers
+                                to troubleshoot operational
+                                bottlenecks and system issues.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section skills-section">
+
+            <div class="section-heading">
+                <span>04</span>
+                <h2>Technical Skills</h2>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-group">
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>Python</span>
+                        <span>C/C++ Basic</span>
+                        <span>SQL Basic</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>
+                        AI & Machine Learning
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>PyTorch</span>
+                        <span>TensorFlow</span>
+                        <span>Scikit-learn</span>
+                        <span>OpenCV</span>
+                        <span>YOLOv8</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>
+                        Network
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>TCP/IP</span>
+                        <span>LAN/WAN</span>
+                        <span>VPN</span>
+                        <span>CCTV/NVR</span>
+                        <span>Network Troubleshooting</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>
+                        Automation & Hardware
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>Omron PLC</span>
+                        <span>HMI</span>
+                        <span>IoT</span>
+                        <span>Fiber Optic</span>
+                        <span>Solar Cell System</span>
+                        <span>LEGO Robotics</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>
+                        Tools
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>Linux</span>
+                        <span>Git</span>
+                        <span>VS Code</span>
+                        <span>Google Colab</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="contact-inner">
+
+                <p class="eyebrow">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Let's build something
+                    <span>useful.</span>
+                </h2>
+
+                <p>
+                    I am open to opportunities in AI Engineering,
+                    Computer Vision, IT Support, Network Systems,
+                    and related engineering roles.
+                </p>
+
+                <div class="contact-links">
+
+                    <a href="mailto:punyavee.name@gmail.com">
+                        punyavee.name@gmail.com
+                    </a>
+
+                    <a href="tel:+66658910458">
+                        065-891-0458
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Punyavee Nowakoaksorn
+        </p>
+
+        <p>
+            Computer Engineer
+        </p>
+
+    </footer>
+
 
 </body>
 </html>
